@@ -4,7 +4,7 @@ from django.db import models
 
 class Ghhfjhfhg(models.Model):
     "Generated Model"
-    dfgrsthgwstrhet = models.BigIntegerField(
+    hgfhgfhgf = models.BigIntegerField(
         blank=True,
     )
     hgjh6546465 = models.BigIntegerField(
