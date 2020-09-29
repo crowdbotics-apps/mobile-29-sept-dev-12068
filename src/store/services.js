@@ -1,6 +1,11 @@
 import axios from "axios"
+const newConnectorjkvkc = axios.create({
+  baseURL:
+    "https://crowdbotics-slack-dev.herokuapp.com/dashboard/app/12068/storyboard/11319/",
+  headers: { Accept: "application/json", "Content-Type": "application/json" }
+})
 const mobile29septAPI = axios.create({
-  baseURL: "https://mobile-29-sept-dev-12068-prod.herokuapp.com/",
+  baseURL: "https://mobile-29-sept-dev-12068.botics.co/",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_v1_customtext_list() {
