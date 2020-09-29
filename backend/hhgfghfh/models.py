@@ -11,6 +11,13 @@ class Ghhfjhfhg(models.Model):
         null=True,
         blank=True,
     )
+    hgjg = models.ForeignKey(
+        "home.HomePage",
+        on_delete=models.CASCADE,
+        null=True,
+        blank=True,
+        related_name="ghhfjhfhg_hgjg",
+    )
 
 
 # Create your models here.
