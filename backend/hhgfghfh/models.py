@@ -4,13 +4,6 @@ from django.db import models
 
 class Ghhfjhfhg(models.Model):
     "Generated Model"
-    hgfhgfhgf = models.BigIntegerField(
-        blank=True,
-    )
-    hgjh6546465 = models.BigIntegerField(
-        null=True,
-        blank=True,
-    )
     ghj765765 = models.ForeignKey(
         "home.HomePage",
         null=True,
