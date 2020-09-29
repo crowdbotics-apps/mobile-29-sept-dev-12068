@@ -25,6 +25,24 @@ function api_v1_customtext_update(requestBody) {
 function api_v1_customtext_partial_update(requestBody) {
   return mobile29septAPI.patch(`/api/v1/customtext/{id}/`, requestBody)
 }
+function api_v1_ghhfjhfhg_list() {
+  return mobile29septAPI.get(`/api/v1/ghhfjhfhg/`)
+}
+function api_v1_ghhfjhfhg_create(requestBody) {
+  return mobile29septAPI.post(`/api/v1/ghhfjhfhg/`, requestBody)
+}
+function api_v1_ghhfjhfhg_read() {
+  return mobile29septAPI.get(`/api/v1/ghhfjhfhg/{id}/`)
+}
+function api_v1_ghhfjhfhg_update(requestBody) {
+  return mobile29septAPI.put(`/api/v1/ghhfjhfhg/{id}/`, requestBody)
+}
+function api_v1_ghhfjhfhg_partial_update(requestBody) {
+  return mobile29septAPI.patch(`/api/v1/ghhfjhfhg/{id}/`, requestBody)
+}
+function api_v1_ghhfjhfhg_delete() {
+  return mobile29septAPI.delete(`/api/v1/ghhfjhfhg/{id}/`)
+}
 function api_v1_homepage_list() {
   return mobile29septAPI.get(`/api/v1/homepage/`)
 }
@@ -84,6 +102,12 @@ export const apiService = {
   api_v1_customtext_read,
   api_v1_customtext_update,
   api_v1_customtext_partial_update,
+  api_v1_ghhfjhfhg_list,
+  api_v1_ghhfjhfhg_create,
+  api_v1_ghhfjhfhg_read,
+  api_v1_ghhfjhfhg_update,
+  api_v1_ghhfjhfhg_partial_update,
+  api_v1_ghhfjhfhg_delete,
   api_v1_homepage_list,
   api_v1_homepage_read,
   api_v1_homepage_update,
