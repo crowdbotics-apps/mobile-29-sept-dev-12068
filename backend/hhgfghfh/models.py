@@ -7,7 +7,7 @@ class Ghhfjhfhg(models.Model):
     dfgrsthgwstrhet = models.BigIntegerField(
         blank=True,
     )
-    dfgwrhtety = models.BigIntegerField(
+    hgjh6546465 = models.BigIntegerField(
         null=True,
         blank=True,
     )

@@ -7,16 +7,23 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='Ghhfjhfhg',
+            name="Ghhfjhfhg",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('dfgrsthgwstrhet', models.BigIntegerField(blank=True)),
-                ('dfgwrhtety', models.BigIntegerField(blank=True, null=True)),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("dfgrsthgwstrhet", models.BigIntegerField(blank=True)),
+                ("dfgwrhtety", models.BigIntegerField(blank=True, null=True)),
             ],
         ),
     ]
